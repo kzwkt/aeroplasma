@@ -1,6 +1,6 @@
 #coo
 pacman -Syu
-pacman -Sy --noconfirm  cmake extra-cmake-modules ninja qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel
+pacman -Sy --noconfirm  cmake extra-cmake-modules ninja qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel git
 CUR_DIR=$(pwd)
 USE_SCRIPT="install_ninja.sh"
 A_DIR=$CUR_DIR/aerothemeplasma
