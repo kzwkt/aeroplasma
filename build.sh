@@ -1,4 +1,5 @@
 #coo
+pacman -Syu
 pacman -S cmake extra-cmake-modules ninja qt6-virtualkeyboard qt6-multimedia qt6-5compat plasma-wayland-protocols plasma5support kvantum base-devel
 CUR_DIR=$(pwd)
 USE_SCRIPT="install_ninja.sh"
