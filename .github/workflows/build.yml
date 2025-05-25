@@ -3,10 +3,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'PKGBUILD'
-  pull_request:
-    paths:
-      - 'PKGBUILD'
+      - 'build.sh'
+
 
 jobs:
   build:
